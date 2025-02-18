@@ -15,6 +15,7 @@ public class usersController {
     public String home (Model model){
         model.addAttribute("mensaje", "Hola Mundo en la WEB");
         model.addAttribute("mensaje1", "Prueba de GIT");
+        model.addAttribute("mensaje2", "Hola Mundo para Actividad 4 Java");
         return "index"; //retorna el nombre de la vista en este caso index.html
     }
 
